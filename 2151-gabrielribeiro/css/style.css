@@ -1,0 +1,55 @@
+#produtos,#sobre,#fale{
+    min-height: 100vh;
+    padding: 4em;
+}
+
+#produtos{
+    background-color: bisque;
+    color: brown;
+}
+
+#sobre{
+    background-color: cadetblue;
+    color: bisque;
+}
+
+#fale{
+    background-color: brown;
+    color: white;
+}
+
+nav{
+    position: fixed;
+    margin-top: 0px;
+    width: 100%;
+    z-index: 1000;
+}
+
+#produtos img{
+    max-height: 350px;
+}
+
+.card h5{
+    text-align: center;
+}
+
+h1{
+    margin-bottom: 1em;
+}
+
+#subir a{
+    position: fixed;
+    right: 0.5em;
+    bottom: 1em;
+    text-decoration: none;
+    color: white;
+    opacity: 0.5;
+    text-align: center;
+}
+#subir a i{
+    font-size: 3em;
+}
+
+#subir a:hover{
+    opacity: 1;
+}
